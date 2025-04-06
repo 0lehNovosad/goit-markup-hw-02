@@ -1,7 +1,11 @@
 body {
   font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 2%;
+  background-color: #ffffff;
   color: #434455;
-  background-color: #fff;
 }
 
 .page-header {
@@ -35,9 +39,40 @@ body {
   display: flex;
   align-items: center;
   gap: 40px;
-}    
+}
 
 .contacts {
   font-style: normal;
   margin-left: auto;
+}
+
+.title {
+  width: 1920px;
+  height: 200px;
+  background: #2e2f42;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 56px;
+
+  /* line-height: 60px; */
+  line-height: 1.07143;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+}
+
+.header-logo {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #0000eb;
+
+}
+
+.header-logo-part {
+  color: #2e2f42;
 }
