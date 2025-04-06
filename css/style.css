@@ -35,4 +35,9 @@ body {
   display: flex;
   align-items: center;
   gap: 40px;
+}    
+
+.contacts {
+  font-style: normal;
+  margin-left: auto;
 }
